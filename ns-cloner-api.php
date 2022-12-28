@@ -65,3 +65,5 @@ function copy_site( \WP_REST_Request $request ) {
     }
     return new WP_Error('copy_failed', 'Could not copy site');
 }
+
+?>
